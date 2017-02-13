@@ -1,0 +1,122 @@
+
+<!--Author: Mai Moftah
+File Name: display_bill.php
+Assignment: Homework 2
+Date: 01-30-2017-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery Shopping</title>
+</head>
+<body>
+<h1 style="color: #4BA0A1;"> Let's help you shop! </h1>
+<h2 style="color: #397687"> Pick the items you need, specify a quantity and then click submit</h2>
+<form method="post" action="display_bill.php">
+    <label style="color: #4B959C"><strong>What's your budget?</strong><input name="budget" type="text"></label>
+    <h2>Grocery Items: </h2>
+
+    <table>
+        <tr>
+            <td><img src="apple.png"></td>
+            <td><img src="banana.png"></td>
+            <td><img src="milk.png"></td>
+            <td><img src="cake.png"></td>
+        </tr>
+        <tr>
+            <td>
+                <label>Quantity: <select name="apple">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="banana">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="milk">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="cake">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="toast.png"></td>
+            <td><img src="cheese.png"></td>
+            <td><img src="cookie.png"></td>
+            <td><img src="water.jpg" style="width:128px; height:128px;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label>Quantity: <select name="toast">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="cheese">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="cookie">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+            <td>
+                <label>Quantity: <select name="water">
+                    <option value=0>0</option>
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><img src="cart.png"></td>
+        </tr>
+    </table>
+
+    <input style="background-color: black; color: white;" type="submit" value="Calculate Bill">
+    <input style="background-color: black; color: white;"  type="reset" value="Clear!">
+
+</form>
+
+
+</body>
+</html>
